@@ -89,14 +89,14 @@ user_filename.configure(width=30, bg="white", fg="black")
 user_filename.place(x=350, y=300)
 
 # Create button to generate QR-code
-bouton_generate = Button(fenetre, text="Générer", command=generate)
+bouton_generate = Button(fenetre, text="Generate", command=generate)
 bouton_generate.pack(side="right", padx=5, pady=5)
 bouton_generate.configure(width=10, height=2, bg="gray", fg="black")
 bouton_generate.place(x=200, y= 450)
 bouton_generate.place_forget()
 
 # Create button to quit app
-bouton_quitter = Button(fenetre, text="Quitter", command=fenetre.quit)
+bouton_quitter = Button(fenetre, text="Quit", command=fenetre.quit)
 bouton_quitter.pack(side="right", padx=5, pady=5)
 bouton_quitter.configure(width=10, height=2, bg="gray", fg="black")
 bouton_quitter.place(x=500, y= 450)
