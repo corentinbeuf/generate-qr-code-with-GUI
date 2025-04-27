@@ -55,8 +55,7 @@ def save_and_notify():
 
 # Create Tkinter window
 fenetre = Tk()
-champ_label = Label(fenetre, text="Generate QR-code", bg="#000033", fg="white")
-champ_label.pack()
+fenetre.title("Generate QR-code")
 fenetre.configure(bg="#000033")
 canvas=Canvas(fenetre, width=800, height=600)
 canvas.pack()
