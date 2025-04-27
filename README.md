@@ -1,5 +1,12 @@
 # generate-qr-code-with-GUI
 
+## How to use application
+- Start application "Generate.QR-code.exe".
+- Enter the URL of your website.
+- Enter a name for the QR-code to name it when is generating.
+- Click on the button "Generate".
+- The file generating is present in the path : %USERPROFILE%\Documents\qrcode
+
 ## How to install the project locally
 - Create virtualenv.
 ```bash
